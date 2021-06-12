@@ -31,3 +31,6 @@ Wiekönnte eine Lösung für Video-, Klanginstallationen oder gar interaktive We
 
 #### Hinweis
 *Es handelt sich um das Abschlussprojekt eines Kurses (Weiterbildung) zum Thema Blockchain mi Python*
+
+You would need to setup flask and the environment variable (FLASK_APP = "run_app.py". also see here:
+https://flask.palletsprojects.com/en/2.0.x/installation/
