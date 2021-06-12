@@ -6,7 +6,7 @@
 
 Registrierte NutzerInnen können Bilder ihrer Kunstwerke hochladen und mit weiteren Angaben versehen. Anschließend werden diese in die Blockchain geschrieben. 
 
-Durch den Zeitstempel kann die “Kreation” eines Kunstwerk quasi eindeutig der Künstlerin als “Erfinder” dessen zugeordnet werden.
+Durch den Zeitstempel kann die “Kreation” eines Kunstwerk quasi eindeutig den KünstlerInnen als “Erfinder” dessen zugeordnet werden.
 
 
 ## Monetisierung
@@ -18,11 +18,11 @@ Schön wären auch variable Preise um z.B. gut wirtschaftende Gallerien stärker
 
 ## Herausforderungen
 
-Es bedürfte eines zweiten, eindeutigen Faktors, um die Zugehörigkeit zu beweisen. (Aktuell Foto von Kunstwerk mit Künstler) Theoretisch könnte jeder in einer Ausstellung ein Foto von einem Gemäldes machen und es anschließend über die Plattform sich selbst zuschreiben. 
+Es bedürfte eines zweiten, eindeutigen Faktors, um die Zugehörigkeit zu beweisen. (Aktueller workaround: Foto von Kunstwerk mit Künstler im Bild) Theoretisch könnte jeder in einer Ausstellung ein Foto von einem Gemäldes machen und es anschließend über die Plattform sich selbst zuschreiben. 
 
-Die Daten können nicht mehr geändert werden. Falls NutzerInnen z.B. ein Tippfehler unterläuft, würde bei Korrektur ein neuer Block erstellt. 
+Die Daten können nicht mehr geändert werden. Falls NutzerInnen z.B. ein Tippfehler unterläuft, würde als Korrektur nur die Erstellung eines neuen Blockes (mit neuen Datum) möglich. 
 
-Wiekönnte eine Lösung für Video-, Klanginstallationen oder gar interaktive Werke aussehen? 
+Wie könnte eine Lösung für Video-, Klanginstallationen oder gar interaktive Werke aussehen? 
 
 
 ----------------------------------------------------------------------------
