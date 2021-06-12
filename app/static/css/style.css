@@ -1,0 +1,153 @@
+/******************* 
+    RESET  
+*******************/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/******************* 
+    RESET END
+*******************/
+:root {
+    --main-color: maroon;
+    --secondary-color: papayawhip;
+    --braun: burlywood;
+
+    --serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; 
+    --sans: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif; 
+  }
+body {
+    
+    font-family: var(--sans);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 1rem solid;
+    border-image-source: url("../images/border-image.png");
+    border-image-width: 0 0 auto 0; */
+    padding: 1.5rem 3.5rem;
+    margin-bottom: 3rem;
+}
+/* .logo-img {
+
+} */
+
+.eingabe-form {
+    width: 35rem;
+    margin: 3em auto;
+}
+.text-input {
+    margin-bottom: 1rem;
+}
+
+.text-input > label {
+    margin-bottom: 1rem;
+}
+
+.image-uploads {
+    margin-bottom: 2rem;
+}
+.image-uploads > legend {
+    padding: 0 0.5em 0.3em 0.5em;
+}
+.upload-liste {
+  padding-left: 1rem;
+}
+.text-input,
+.image-uploads li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: center; */
+    margin-bottom: 3rem;
+}
+/* .image-uploads label,
+.image-uploads input {
+    margin: 0;
+    width: auto;
+} */
+.text-input label,
+.image-uploads label {
+    font-size: 1.125rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.image-uploads > legend,
+.image-uploads input {
+    font-size: 0.875rem;
+    height: auto;
+    /* margin-right: 1rem; */
+}

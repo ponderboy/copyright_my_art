@@ -1,0 +1,53 @@
+{% extends "/template_parts/base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block main %}
+
+<!-- <p>This is my variable: {{my_var}}</p> -->
+
+<section>
+
+  <form class="eingabe-form" action="/" method="POST" enctype="multipart/form-data">
+
+    <p class="text-input">
+      <label for="title">
+        <span>title of work: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="text" id="title" name="art-title" placeholder="untitled">
+    </p>
+    <p class="text-input">
+      <label for="artist">
+        <span>name of artist: </span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="text" id="artist" name="artist">
+    </p>
+    <!-- <h2>Ich möchte spenden:</h2> -->
+    <fieldset class="image-uploads">
+      <legend>Images of your piece of art</legend>
+      <ul class="upload-liste">
+        <li>
+          <label for="main-image">Choose an image showing your master piece
+            <strong><abbr title="required">*</abbr></strong></label>
+          <input type="file" id="main-image" name="main-image" accept="image/*">
+        </li>
+        <!-- <li>
+          <label for="detail-image">Choose more images showing details or different angles</label>
+          <input type="file" id="detail-image" name="detail-image" accept="image/*" multiple>
+        </li>
+        <li>
+          <label for="artist-in-image">Choose with you and your piece in one picture
+            <strong><abbr title="required">*</abbr></strong></label>
+          <input type="file" id="artist-in-image" name="artist-in-image" accept="image/*">
+        </li> -->
+      </ul>
+    </fieldset>
+
+    <button type="submit" class="btn btn-primary">Absenden</button>
+
+  </form>
+</section>
+
+{% endblock %}
